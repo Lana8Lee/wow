@@ -52,8 +52,8 @@
           this.speed = .5;
           this.a = .5;
           this.aReduction = .005;
-          this.color = "rgba(255,255,255," + this.a + ")";
-          this.linkColor = "rgba(255,255,255," + this.a / 4 + ")";
+          this.color = "rgba(15, 7, 79," + this.a + ")";
+          this.linkColor = "rgba(15, 7, 79," + this.a / 4 + ")";
 
           this.dir = Math.floor(Math.random() * 140) + 200;
       }
@@ -95,8 +95,8 @@
               this.die();
               return
           }
-          this.color = "rgba(255,255,255," + this.a + ")";
-          this.linkColor = "rgba(255,255,255," + this.a / 4 + ")";
+          this.color = "rgba(15, 7, 79," + this.a + ")";
+          this.linkColor = "rgba(15, 7, 79," + this.a / 4 + ")";
           this.x = this.x + Math.cos(degToRad(this.dir)) * this.speed,
                   this.y = this.y + Math.sin(degToRad(this.dir)) * this.speed;
 
